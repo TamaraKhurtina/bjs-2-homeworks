@@ -7,7 +7,7 @@ function compareArrays(arr1, arr2) {
 }
 
 function getUsersNamesInAgeRange(users, gender) {
-  const usersWithGender = users.filter((user) => user.gender === gender);
+  const usersWithGender = users.filter(user => user.gender === gender);
 
   if (usersWithGender.length === 0) {
     return 0;
